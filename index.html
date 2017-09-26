@@ -1,1 +1,58 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+.container {
+display:block;
+justify-content:center;
+}
+ #outer-circle {
+   background: #385a94;
+   border-radius: 50%;
+   height: 300px;
+   width: 300px;
+   position: relative;
+   /* 
+    Child elements with absolute positioning will be 
+    positioned relative to this div 
+   */
+ }
+ #inner-circle {
+   position: absolute;
+   background: #a9aaab;
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 50%;
+   left: 50%;
+   margin-left: -99px;
+   margin-top:-100px;
+   /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+ }
+</style>
+
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<div class="container">
+<div id="outer-circle">
+  <div id="inner-circle">
+  </div>
+</div>
+<div id="outer-circle">
+  <div id="inner-circle">
+  </div>
+</div>
+</div>
+</body>
+</html>
