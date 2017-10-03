@@ -1,100 +1,393 @@
+	@media screen and (min-width:100px) and (max-width:469px){
 	.smallscreen{
-	background-color:red;
-	display:none;
+		background-color:green;
+		height:50vh;
+	}
+	body {
+		display:block;
+		 margin:0;
+	  padding:0;
+	  border:0;
+	}
+	.middle {
+		display:block;
+	}
+	.col-left, .col-right {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		width:100vw;
+	}
+	 .outer-circle {
+		background-image: url(middleborder.png);
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #C0B9AF;
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		top: 50%;
+		left: 50%;
+	margin-left: -78px;
+		margin-top:-72px;
+	 }
+	 span{
+		background: none repeat scroll 0 0 #F8F8F8;
+		border: 5px solid #DFDFDF;
+		color: #717171;
+		font-size: 20px;
+		height: 30px;
+		letter-spacing: 1px;
+		line-height: 30px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		top: -80px;
+		left:-70px;
+		display:none;
+		padding:0 20px;
+		font-family: 'Halant';
+	}
+	p{
+		margin:50px -20px;
+		width:200px;
+		text-align:center;
+		position:relative;
+		cursor:pointer;
+		font-size:30px;
+		font-weight:bold;
+		font-family: 'Dancing Script';
+	}
+	p:hover span{
+		display:block;
+		width:300px;
+	}
+	.top, .bottom {
+		height:15vh;
+		background-image: url(top.png);
+		background-color:red;
+	}
+	.center {
+		width:33.4vw;
+		background-color:pink;
+	}
+	.spanleft, .spanright{
+		top: -75px;
+		left:-106px;
+	}
+	.box {
+	  display:flex;
+	  justify-content:center;
+	  width:100%;
+	  background-color:orange;
+	  margin:0;
+	  padding:0;
+	  border:0;
+	}
 }
+@media screen and (min-width:470px) and (max-width:734px){
+	.smallscreen{
+		background-color:green;
+		height:50vh;
+	}
+	body {
+		display:block;
+		 margin:0;
+	  padding:0;
+	  border:0;
+	}
+	.middle {
+		display:block;
+	}
+	.col-left, .col-right {
+		display:flex;
+	  flex-wrap:wrap;
+		justify-content:center;
+		width:100vw;
+	}
+	 .outer-circle {
+		background-image: url(middleborder.png);
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #C0B9AF;
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		top: 50%;
+		left: 50%;
+	margin-left: -78px;
+		margin-top:-72px;
+	 }
+	 span{
+		background: none repeat scroll 0 0 #F8F8F8;
+		border: 5px solid #DFDFDF;
+		color: #717171;
+		font-size: 20px;
+		height: 30px;
+		letter-spacing: 1px;
+		line-height: 30px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		top: -80px;
+		left:-70px;
+		display:none;
+		padding:0 20px;
+		font-family: 'Halant';
+	}
 
-body {
-	display:block;
-	margin:0;
-}
+	p{
+		margin:50px -20px;
+		width:200px;
+		text-align:center;
+		position:relative;
+		cursor:pointer;
+		font-size:30px;
+		font-weight:bold;
+		font-family: 'Dancing Script';
+	}
 
-.middle {
-	display:flex;
-	height:70vh;
-}
-.col-left, .col-right {
-	margin-top:20px;
-	display:flex;
-  flex-wrap:wrap;
-	justify-content:center;
-	width:33.3vw;
-}
- #outer-circle {
-	background-color:red;
-	border-radius: 50%;
-	height: 150px;
-	width: 150px;
-	position: relative;
- }
- #inner-circle {
-	position: absolute;
-	background: #C0B9AF;
-	border-radius: 50%;
-	height: 105px;
-	width: 105px;
-	top: 50%;
-	left: 50%;
-margin-left: -52px;
-	margin-top:-52px;
- }
- span{
-    background: none repeat scroll 0 0 #F8F8F8;
-    border: 5px solid #DFDFDF;
-    color: #717171;
-    font-size: 20px;
-    height: 30px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    top: -80px;
-    left:-70px;
-    display:none;
-    padding:0 20px;
-    font-family: 'Halant';
-}
+	p:hover span{
+		display:block;
+		width:350px;
+	}
 
-p{
-    margin:30px -50px;
-    width:200px;
-	text-align:center;
-    position:relative;
-    cursor:pointer;
-    font-size:30px;
-	font-weight:bold;
-	font-family: 'Dancing Script';
+	.top, .bottom {
+		height:15vh;
+		background-image: url(top.png);
+		background-color:red;
+	}
+	.center {
+		width:33.4vw;
+		background-color:pink;
+	}
+	.spanright, .spanleft{
+		top: -75px;
+		left:-210px;
+	}
+	.spanleft{
+		top: -75px;
+		left:0px;
+	}
+	.box {
+	  display:flex;
+	  justify-content:center;
+	  width:50%;
+	  background-color:orange;
+	  margin:0;
+	  padding:0;
+	  border:0;
+	}
 }
+@media screen and (min-width:735px) and (max-width:1199px) {
+	.smallscreen{
+		background-color:red;
+		display:none;
+	}
+	body {
+		display:block;
+		 margin:0;
+	  padding:0;
+	  border:0;
+	}
+	.middle {
+		display:flex;
+		height:70vh;
+	}
+	.col-left, .col-right {
+		display:flex;
+	  flex-wrap:wrap;
+		justify-content:center;
+		width:25vw;
+	}
+	 .outer-circle {
+		background-image: url(bigborder.png);
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #C0B9AF;
+		border-radius: 50%;
+		height: 105px;
+		width: 105px;
+		top: 50%;
+		left: 50%;
+		margin-left: -52px;
+		margin-top:-48px;
+	 }
+	 span{
+		background: none repeat scroll 0 0 #F8F8F8;
+		border: 5px solid #DFDFDF;
+		color: #717171;
+		font-size: 20px;
+		height: 30px;
+		letter-spacing: 1px;
+		line-height: 30px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		top: -80px;
+		left:-70px;
+		display:none;
+		padding:0 20px;
+		font-family: 'Halant';
+	}
+	.hide {
+		display:none;
+	}
+	p{
+		margin:30px -50px;
+		width:200px;
+		text-align:center;
+		position:relative;
+		cursor:pointer;
+		font-size:30px;
+		font-weight:bold;
+		font-family: 'Dancing Script';
+	}
+	p:hover span{
+		display:block;
+		width:350px;
+	}
+	.top, .bottom {
+		height:15vh;
+		background-image: url(top.png);
+	}
+	.center {
+		width:50vw;
+		background-color:pink;
+	}
+	.right{
+		top: -75px;
+		left:-205px;
+	}
+	.left{
+		top: -75px;
+		left:15px;
+	}
+	.box {
+	  display:flex;
+	  justify-content:center;
+	  width:100%;
+	  background-color:orange;
+	  margin:0;
+	  padding:0;
+	  border:0;
+	}
+}
+@media screen and (min-width:1200px) {
+	.smallscreen{
+		background-color:red;
+		display:none;
+	}
+	body {
+		display:block;
+		 margin:0;
+	  padding:0;
+	  border:0;
+	}
+	.middle {
+		display:flex;
+		height:70vh;
+	}
+	.col-left, .col-right {
+		display:flex;
+	  flex-wrap:wrap;
+		justify-content:center;
+		width:33.3vw;
+	}
+	 .outer-circle {
+		background-image: url(bigborder.png);
+		border-radius: 50%;
+		height: 153px;
+		width: 154px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #C0B9AF;
+		border-radius: 50%;
+		height: 105px;
+		width: 105px;
+		top: 50%;
+		left: 50%;
+	margin-left: -52px;
+		margin-top:-52px;
+	 }
+	 span{
+		background: none repeat scroll 0 0 #F8F8F8;
+		border: 5px solid #DFDFDF;
+		color: #717171;
+		font-size: 20px;
+		height: 30px;
+		letter-spacing: 1px;
+		line-height: 30px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		top: -80px;
+		left:-70px;
+		display:none;
+		padding:0 20px;
+		font-family: 'Halant';
+	}
 
-p:hover span{
-    display:block;
-	width:350px;
-}
+	p{
+		margin:30px -50px;
+		width:200px;
+		text-align:center;
+		position:relative;
+		cursor:pointer;
+		font-size:30px;
+		font-weight:bold;
+		font-family: 'Dancing Script';
+	}
 
-.top {
-	height:15vh;
-	background-color:red;
-}
-.bottom{
-	background-color:blue;
-	height:15vh;
-}
-.center {
-	width:33.4vw;
-	background-color:pink;
-}
-.spanright{
-	top: -75px;
-    left:-205px;
-}
-.spanleft{
-	top: -75px;
-    left:-50px;
-}
-.box {
-  display:flex;
-  justify-content:center;
-  width:50%;
-  background-color:blue;
+	p:hover span{
+		display:block;
+		width:350px;
+	}
+
+	.top, .bottom {
+		height:15vh;
+		background-image: url(top.png);
+	}
+	.center {
+		width:33.4vw;
+		background-color:pink;
+	}
+	.spanright{
+		top: -75px;
+		left:-205px;
+	}
+	.spanleft{
+		top: -75px;
+		left:-50px;
+	}
+	.box {
+	  display:flex;
+	  justify-content:center;
+	  width:50%;
+	  background-color:orange;
+	  margin:0;
+	  padding:0;
+	  border:0;
+	}
 }
