@@ -1,13 +1,43 @@
+body {
+	  display:block;
+	  margin:0;
+	  padding:0;
+	  border:0;
+}
+span{
+	background: none repeat scroll 0 0 #F8F8F8;
+	border: 5px solid #a79bb7;		
+	color: #717171;
+	font-size: 20px;
+	height: 30px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	top: -80px;
+	left:-70px;
+	display:none;
+	padding:0 20px;
+	font-family: 'Halant';
+}
+p{
+	margin:30px -50px;
+	width:200px;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+	font-size:30px;
+	font-weight:bold;
+	font-family: 'Dancing Script';
+}
+
 @media screen and (min-width:100px) and (max-width:469px){
 	.smallscreen{
 		background-color:green;
 		height:50vh;
-	}
-	body {
-		display:block;
-		 margin:0;
-	  padding:0;
-	  border:0;
+		width:100vw;
 	}
 	.middle {
 		display:block;
@@ -37,32 +67,13 @@
 		margin-top:-72px;
 	 }
 	 span{
-		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #a79bb7;
-		color: #717171;
+		
 		font-size: 12px;
-		height: 25px;
-		letter-spacing: 1px;
-		line-height: 20px;
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		text-transform: uppercase;
-		top: -80px;
-		left:-80px;
-		display:none;
-		padding:0 20px;
-		font-family: 'Halant';
+		height: 20px;
 	}
+	
 	p{
 		margin:50px -20px;
-		width:200px;
-		text-align:center;
-		position:relative;
-		cursor:pointer;
-		font-size:30px;
-		font-weight:bold;
-		font-family: 'Dancing Script';
 	}
 	p:hover span{
 		display:block;
@@ -134,34 +145,8 @@
 	margin-left: -78px;
 		margin-top:-72px;
 	 }
-	 span{
-		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #a79bb7;
-		color: #717171;
-		font-size: 20px;
-		height: 30px;
-		letter-spacing: 1px;
-		line-height: 30px;
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		text-transform: uppercase;
-		top: -80px;
-		left:-70px;
-		display:none;
-		padding:0 20px;
-		font-family: 'Halant';
-	}
-
 	p{
 		margin:50px -20px;
-		width:200px;
-		text-align:center;
-		position:relative;
-		cursor:pointer;
-		font-size:30px;
-		font-weight:bold;
-		font-family: 'Dancing Script';
 	}
 
 	p:hover span{
@@ -201,16 +186,10 @@
 	background-repeat: repeat-x;
 }
 }
-@media screen and (min-width:735px) and (max-width:1199px) {
+@media screen and (min-width:735px) and (max-width:1199px){
 	.smallscreen{
 		background-color:red;
 		display:none;
-	}
-	body {
-		display:block;
-		 margin:0;
-	  padding:0;
-	  border:0;
 	}
 	.middle {
 		display:flex;
@@ -240,34 +219,6 @@
 		margin-left: -52px;
 		margin-top:-48px;
 	 }
-	 span{
-		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #a79bb7;
-		color: #717171;
-		font-size: 20px;
-		height: 30px;
-		letter-spacing: 1px;
-		line-height: 30px;
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		text-transform: uppercase;
-		top: -80px;
-		left:-70px;
-		display:none;
-		padding:0 20px;
-		font-family: 'Halant';
-	}
-	p{
-		margin:30px -50px;
-		width:200px;
-		text-align:center;
-		position:relative;
-		cursor:pointer;
-		font-size:30px;
-		font-weight:bold;
-		font-family: 'Dancing Script';
-	}
 	p:hover span{
 		display:block;
 		width:350px;
@@ -312,12 +263,6 @@
 		background-color:red;
 		display:none;
 	}
-	body {
-		display:block;
-		margin:0;
-		padding:0;
-		border:0;
-	}
 	.middle {
 		display:flex;
 		height:70vh;
@@ -346,36 +291,6 @@
 	margin-left: -52px;
 		margin-top:-52px;
 	 }
-	 span{
-		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #a79bb7;
-		color: #717171;
-		font-size: 20px;
-		height: 30px;
-		letter-spacing: 1px;
-		line-height: 30px;
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		text-transform: uppercase;
-		top: -80px;
-		left:-70px;
-		display:none;
-		padding:0 20px;
-		font-family: 'Halant';
-	}
-
-	p{
-		margin:30px -50px;
-		width:200px;
-		text-align:center;
-		position:relative;
-		cursor:pointer;
-		font-size:30px;
-		font-weight:bold;
-		font-family: 'Dancing Script';
-	}
-
 	p:hover span{
 		display:block;
 		width:350px;
