@@ -1,51 +1,41 @@
-body{
+	.smallscreen{
+	background-color:red;
+	display:none;
+}
+
+body {
+	display:block;
 	margin:0;
 }
-.top{
-	background-color: red;
-	height:15vh;
-	
-}
+
 .middle {
 	display:flex;
-	width:100vw;
 	height:70vh;
-	background-color:blue;
 }
-.bottom {
-	background-color: black;
-	height:15vh;
-}
-.left {
-	display:block;
+.col-left, .col-right {
+	margin-top:20px;
+	display:flex;
+  flex-wrap:wrap;
+	justify-content:center;
 	width:33.3vw;
-	background-color:yellow;
 }
-.center {
-	width:33.3vw;
-	background-color:pink;
-}
-.right {
-	width:33.4vw;
-	background-color:green;
-}
-#outer-circle {
-	background-image: url(border.png);
+ #outer-circle {
+	background-color:red;
 	border-radius: 50%;
-	height: 190px;
-	width: 190px;
+	height: 150px;
+	width: 150px;
 	position: relative;
  }
  #inner-circle {
 	position: absolute;
 	background: #C0B9AF;
 	border-radius: 50%;
-	height: 115px;
-	width: 115px;
+	height: 105px;
+	width: 105px;
 	top: 50%;
 	left: 50%;
-	margin-left: -68px;
-	margin-top:-50px;
+margin-left: -52px;
+	margin-top:-52px;
  }
  span{
     background: none repeat scroll 0 0 #F8F8F8;
@@ -67,22 +57,44 @@ body{
 }
 
 p{
-    margin:70px 2px;
-    width:60px;
+    margin:30px -50px;
+    width:200px;
 	text-align:center;
     position:relative;
     cursor:pointer;
     font-size:30px;
+	font-weight:bold;
 	font-family: 'Dancing Script';
 }
 
 p:hover span{
     display:block;
-	width:300px;
+	width:350px;
 }
-.leftside {
-	margin-left:100px;
+
+.top {
+	height:15vh;
+	background-color:red;
 }
-.rightside {
-	margin-left:350px;;
+.bottom{
+	background-color:blue;
+	height:15vh;
+}
+.center {
+	width:33.4vw;
+	background-color:pink;
+}
+.spanright{
+	top: -75px;
+    left:-205px;
+}
+.spanleft{
+	top: -75px;
+    left:-50px;
+}
+.box {
+  display:flex;
+  justify-content:center;
+  width:50%;
+  background-color:blue;
 }
