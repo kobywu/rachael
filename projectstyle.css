@@ -79,6 +79,10 @@ p{
 		display:block;
 		width:280px;
 	}
+	p:onclick span{
+		display:block;
+		width:280px;
+	}
 	.top, .bottom {
 		height:15vh;
 	}
