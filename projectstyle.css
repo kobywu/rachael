@@ -38,18 +38,18 @@
 	 }
 	 span{
 		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #DFDFDF;
+		border: 5px solid #a79bb7;
 		color: #717171;
-		font-size: 20px;
-		height: 30px;
+		font-size: 12px;
+		height: 25px;
 		letter-spacing: 1px;
-		line-height: 30px;
+		line-height: 20px;
 		margin: 0 auto;
 		position: relative;
 		text-align: center;
 		text-transform: uppercase;
 		top: -80px;
-		left:-70px;
+		left:-80px;
 		display:none;
 		padding:0 20px;
 		font-family: 'Halant';
@@ -66,14 +66,13 @@
 	}
 	p:hover span{
 		display:block;
-		width:300px;
+		width:280px;
 	}
 	.top, .bottom {
 		height:15vh;
 	}
 	.center {
-		width:33.4vw;
-		background-color:pink;
+		display:none;
 	}
 	.spanleft, .spanright{
 		top: -75px;
@@ -83,7 +82,7 @@
 	  display:flex;
 	  justify-content:center;
 	  width:100%;
-	  background-color:orange;
+	  background-color:#592816;
 	  margin:0;
 	  padding:0;
 	  border:0;
@@ -100,6 +99,7 @@
 	.smallscreen{
 		background-color:green;
 		height:50vh;
+		width:100vw;
 	}
 	body {
 		display:block;
@@ -136,7 +136,7 @@
 	 }
 	 span{
 		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #DFDFDF;
+		border: 5px solid #a79bb7;
 		color: #717171;
 		font-size: 20px;
 		height: 30px;
@@ -175,8 +175,7 @@
 		background-color:red;
 	}
 	.center {
-		width:33.4vw;
-		background-color:pink;
+		display:none;
 	}
 	.spanright, .spanleft{
 		top: -75px;
@@ -190,7 +189,7 @@
 	  display:flex;
 	  justify-content:center;
 	  width:50%;
-	  background-color:orange;
+	  background-color:#592816;
 	  margin:0;
 	  padding:0;
 	  border:0;
@@ -243,7 +242,7 @@
 	 }
 	 span{
 		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #DFDFDF;
+		border: 5px solid #a79bb7;
 		color: #717171;
 		font-size: 20px;
 		height: 30px;
@@ -293,7 +292,7 @@
 	  display:flex;
 	  justify-content:center;
 	  width:100%;
-	  background-color:orange;
+	  background-color:#592816;
 	  margin:0;
 	  padding:0;
 	  border:0;
@@ -315,9 +314,9 @@
 	}
 	body {
 		display:block;
-		 margin:0;
-	  padding:0;
-	  border:0;
+		margin:0;
+		padding:0;
+		border:0;
 	}
 	.middle {
 		display:flex;
@@ -349,7 +348,7 @@
 	 }
 	 span{
 		background: none repeat scroll 0 0 #F8F8F8;
-		border: 5px solid #DFDFDF;
+		border: 5px solid #a79bb7;
 		color: #717171;
 		font-size: 20px;
 		height: 30px;
@@ -388,7 +387,6 @@
 	}
 	.center {
 		width:33.4vw;
-		background-color:pink;
 	}
 	.spanright{
 		top: -75px;
@@ -402,7 +400,7 @@
 	  display:flex;
 	  justify-content:center;
 	  width:50%;
-	  background-color:orange;
+	  background-color:#592816;
 	  margin:0;
 	  padding:0;
 	  border:0;
