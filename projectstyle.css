@@ -70,8 +70,6 @@
 	}
 	.top, .bottom {
 		height:15vh;
-		background-image: url(top.png);
-		background-color:red;
 	}
 	.center {
 		width:33.4vw;
@@ -90,6 +88,13 @@
 	  padding:0;
 	  border:0;
 	}
+	.background{
+	content: url(topbottomsmall.png);
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat-x;
+	}
+	
 }
 @media screen and (min-width:470px) and (max-width:734px){
 	.smallscreen{
@@ -190,6 +195,12 @@
 	  padding:0;
 	  border:0;
 	}
+	.background{
+	content: url(topbottommiddle.png);
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat-x;
+}
 }
 @media screen and (min-width:735px) and (max-width:1199px) {
 	.smallscreen{
@@ -290,6 +301,12 @@
 	.hide {
 		display:none;
 	}
+	.background{
+	content: url(topbottom.png);
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat-x;
+}
 }
 @media screen and (min-width:1200px) {
 	.smallscreen{
