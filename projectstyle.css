@@ -4,7 +4,7 @@ body {
 	padding:0;
 	border:0;
 }
-	span{
+span{
 	background: none repeat scroll 0 0 #F8F8F8;
 	border: 5px solid #a79bb7;		
 	color: #717171;
@@ -59,6 +59,7 @@ p{
 .smallscreen{
 	height:50vh;
 	width:100vw;
+	content: url(flower.jpg);
 }
 .middle {
 	display:block;
