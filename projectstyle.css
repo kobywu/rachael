@@ -3,6 +3,7 @@ body {
 	  margin:0;
 	  padding:0;
 	  border:0;
+	background-color:#592816;
 }
 span{
 	background: none repeat scroll 0 0 #F8F8F8;
@@ -272,7 +273,7 @@ p{
 	.box {
 		width:50%;
 	}
-  .background{
+  	.background{
 		content: url(topbottom.png);
 	}
 }
