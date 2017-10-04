@@ -112,7 +112,7 @@ p{
 @media screen and (min-width:470px) and (max-width:734px){
 	.smallscreen{
 		content: url(flower.jpg);
-		height:50vh;
+		height:75vh;
 		width:100vw;
 	}
 	.middle {
