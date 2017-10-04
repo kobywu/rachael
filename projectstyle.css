@@ -56,223 +56,223 @@ p{
 	content: url("flower.jpg");
 }
 @media screen and (min-width:100px) and (max-width:469px){
-.smallscreen{
-	height:50vh;
-	width:100vw;
-	content: url(flower.jpg);
-}
-.middle {
-	display:block;
-}
-.col-left, .col-right {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	width:100vw;
-}
- .outer-circle {
-	background-image: url(middleborder.png);
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	position: relative;
- }
- .inner-circle {
-	position: absolute;
-	background-color: #08A587;
-	border-radius: 50%;
-	height: 150px;
-	width: 150px;
-	top: 17%;
-	left: 12%;
- }
-span{
-	font-size: 12px;
-	height: 20px;
-}
-p{
-	margin:50px -20px;
-}
-p:active, p:hover span{
-	display:block;
-	width:280px;
-}
-.center {
-	display:none;
-}
-.spanleft, .spanright{
-	top: -75px;
-	left:-106px;
-}
-.background{
-	content: url(topbottomsmall.png);
-}
+	.smallscreen{
+		height:50vh;
+		width:100vw;
+		content: url(flower.jpg);
+	}
+	.middle {
+		display:block;
+	}
+	.col-left, .col-right {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		width:100vw;
+	}
+	 .outer-circle {
+		background-image: url(middleborder.png);
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background-color: #08A587;
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		top: 17%;
+		left: 12%;
+	 }
+	span{
+		font-size: 12px;
+		height: 20px;
+	}
+	p{
+		margin:50px -20px;
+	}
+	p:active, p:hover span{
+		display:block;
+		width:280px;
+	}
+	.center {
+		display:none;
+	}
+	.spanleft, .spanright{
+		top: -75px;
+		left:-106px;
+	}
+	.background{
+		content: url(topbottomsmall.png);
+	}
 	
 }
 @media screen and (min-width:470px) and (max-width:734px){
-.smallscreen{
-	content: url(flower.jpg);
-	height:50vh;
-	width:100vw;
-}
-.middle {
-	display:block;
-}
-.col-left, .col-right {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	width:100vw;
-}
- .outer-circle {
-	background-image: url(middleborder.png);
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	position: relative;
- }
- .inner-circle {
-	position: absolute;
-	background: #08A587;
-	border-radius: 50%;
-	height: 150px;
-	width: 150px;
-	top: 50%;
-	left: 50%;
-	margin-left: -78px;
-	margin-top:-72px;
- }
-p{
-	margin:50px -20px;
-}
+	.smallscreen{
+		content: url(flower.jpg);
+		height:50vh;
+		width:100vw;
+	}
+	.middle {
+		display:block;
+	}
+	.col-left, .col-right {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		width:100vw;
+	}
+	 .outer-circle {
+		background-image: url(middleborder.png);
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #08A587;
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		top: 50%;
+		left: 50%;
+		margin-left: -78px;
+		margin-top:-72px;
+	 }
+	p{
+		margin:50px -20px;
+	}
 
-p:active, p:hover span{
-	display:block;
-	width:350px;
-}
-.center {
-	display:none;
-}
-.spanright, .spanleft{
-	top: -75px;
-	left:-210px;
-}
-.spanleft{
-	top: -75px;
-	left:0px;
-}
-.box {
-	width:50%;
-}
-.background{
-	content: url(topbottom.png);
-}
+	p:active, p:hover span{
+		display:block;
+		width:350px;
+	}
+	.center {
+		display:none;
+	}
+	.spanright, .spanleft{
+		top: -75px;
+		left:-210px;
+	}
+	.spanleft{
+		top: -75px;
+		left:0px;
+	}
+	.box {
+		width:50%;
+	}
+	.background{
+		content: url(topbottom.png);
+	}
 }
 @media screen and (min-width:735px) and (max-width:1199px){
-.smallscreen{
-	display:none;
-}
-.middle {
-	display:flex;
-	height:75vh;
-}
-.col-left, .col-right {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	width:25vw;
-}
- .outer-circle {
-	background-image: url(bigborder.png);
-	border-radius: 50%;
-	height: 150px;
-	width: 150px;
-	position: relative;
- }
- .inner-circle {
-	position: absolute;
-	background: #08A587;
-	border-radius: 50%;
-	height: 105px;
-	width: 105px;
-	top: 50%;
-	left: 50%;
-	margin-left: -52px;
-	margin-top:-48px;
- }
-p:active, p:hover span{
-	display:block;
-	width:350px;
-}
-.center {
-	width:50vw;
-}
-.right{
-	top: -75px;
-	left:-205px;
-}
-.left{
-	top: -75px;
-	left:15px;
-}
-.hide {
-	display:none;
-}
-.background{
-	content: url(topbottom.png);
-}
+	.smallscreen{
+		display:none;
+	}
+	.middle {
+		display:flex;
+		height:75vh;
+	}
+	.col-left, .col-right {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		width:25vw;
+	}
+	 .outer-circle {
+		background-image: url(bigborder.png);
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #08A587;
+		border-radius: 50%;
+		height: 105px;
+		width: 105px;
+		top: 50%;
+		left: 50%;
+		margin-left: -52px;
+		margin-top:-48px;
+	 }
+	p:active, p:hover span{
+		display:block;
+		width:350px;
+	}
+	.center {
+		width:50vw;
+	}
+	.right{
+		top: -75px;
+		left:-205px;
+	}
+	.left{
+		top: -75px;
+		left:15px;
+	}
+	.hide {
+		display:none;
+	}
+	.background{
+		content: url(topbottom.png);
+	}
 }
 @media screen and (min-width:1200px) {
-.smallscreen{
-	display:none;
-}
-.middle {
-	display:flex;
-	height:75vh;
-}
-.col-left, .col-right {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	width:33.3vw;
-}
- .outer-circle {
-	background-image: url(bigborder.png);
-	border-radius: 50%;
-	height: 153px;
-	width: 154px;
-	position: relative;
- }
- .inner-circle {
-	position: absolute;
-	background: #08A587;
-	border-radius: 50%;
-	height: 105px;
-	width: 105px;
-	top: 50%;
-	left: 50%;
-	margin-left: -52px;
-	margin-top:-52px;
- }
-p:active, p:hover span{
-	display:block;
-	width:350px;
-}
-.center {
-	width:33.4vw;
-}
-.spanright{
-	top: -75px;
-	left:-205px;
-}
-.spanleft{
-	top: -75px;
-	left:-50px;
-}
-.box {
-	width:50%;
-}
-.background{
-	content: url(topbottom.png);
-}
+	.smallscreen{
+		display:none;
+	}
+	.middle {
+		display:flex;
+		height:75vh;
+	}
+	.col-left, .col-right {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		width:33.3vw;
+	}
+	 .outer-circle {
+		background-image: url(bigborder.png);
+		border-radius: 50%;
+		height: 153px;
+		width: 154px;
+		position: relative;
+	 }
+	 .inner-circle {
+		position: absolute;
+		background: #08A587;
+		border-radius: 50%;
+		height: 105px;
+		width: 105px;
+		top: 50%;
+		left: 50%;
+		margin-left: -52px;
+		margin-top:-52px;
+	 }
+	p:active, p:hover span{
+		display:block;
+		width:350px;
+	}
+	.center {
+		width:33.4vw;
+	}
+	.spanright{
+		top: -75px;
+		left:-205px;
+	}
+	.spanleft{
+		top: -75px;
+		left:-50px;
+	}
+	.box {
+		width:50%;
+	}
+	.background{
+		content: url(topbottom.png);
+	}
 }
