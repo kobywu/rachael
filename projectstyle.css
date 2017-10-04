@@ -33,7 +33,7 @@ p{
 	font-family: 'Dancing Script';
 }
 .top, .bottom {
-	height:15vh;
+	height:12.5vh;
 	background-image: url(top.png);
 }
 .box {
@@ -174,7 +174,7 @@ p:hover span{
 }
 .middle {
 	display:flex;
-	height:70vh;
+	height:75vh;
 }
 .col-left, .col-right {
 	display:flex;
@@ -228,7 +228,7 @@ p:hover span{
 }
 .middle {
 	display:flex;
-	height:70vh;
+	height:75vh;
 }
 .col-left, .col-right {
 	display:flex;
